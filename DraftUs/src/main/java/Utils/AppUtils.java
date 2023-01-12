@@ -25,7 +25,7 @@ public class AppUtils
     }
 
     @AfterSuite
-    public static void logout()
+    public void closeapp()
     {
         driver.close();
     }
