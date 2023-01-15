@@ -39,10 +39,4 @@ public class ContactUS extends AppUtils
         return isuserpresent;
 
 
-
-
-    }
-
-
-
 }
