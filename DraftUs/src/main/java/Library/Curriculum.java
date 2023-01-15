@@ -8,6 +8,7 @@ import java.util.List;
 
 public class Curriculum extends AppUtils
 {
+
     public boolean addCurriculum(String name, String Descript, String videolink)
     {
         driver.findElement(By.linkText("Curriculum")).click();
@@ -34,6 +35,7 @@ public class Curriculum extends AppUtils
             }
         }
         return isuserpresent;
+
 
 
     }
